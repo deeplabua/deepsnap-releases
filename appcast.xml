@@ -3,41 +3,20 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.7.0</title>
-      <pubDate>Sat, 24 Oct 2026 15:27:36 GMT</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <title>0.7.1</title>
+      <pubDate>Sat, 24 Oct 2026 16:17:52 GMT</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description sparkle:format="plain-text"><![CDATA[### Changed
 
-- **Try all of Pro for 7 days** instead of three tries of each Pro feature. The week starts when you say so: the
-  first time you try a Pro feature, at the end of onboarding, from the menu bar or in Settings › License. Whatever
-  you asked for goes on right after you start it. On 0.6.0 and used your tries? The week is yours to start.
-- **Buy Pro** opens the checkout right away.
-- Toasts appear at the top right, where macOS shows its notifications; a click puts one away.
-
-### Added
-
-- **Remove Background** in the editor (toolbar, or the Background panel): the person or thing on a capture stays,
-  the rest is transparent — or on a background you pick. Crop to Subject in one click; ⌘Z brings the background
-  back. A JPEG capture is saved as a PNG, so the transparency is kept.
-- **Faces** beside the secrets: turn on Settings › Secrets › Faces, and faces in photos, video calls and avatars
-  are listed in the Text panel to pixelate. Only where a face is: DeepSnap never tells whose.
-- **Actions** on what a capture shows: an address opens in Maps, a phone number calls, a date becomes a Calendar
-  event, a link or an e-mail address opens — in the editor's Text panel and in the history.
-- **Unsaved** in the history's sidebar: captures still on a thumbnail, and those you dropped into another app
-  without saving (kept a day). Save one to put it in your folder and the history.
-- **Keys as in macOS** in Settings › Shortcuts: ⌘⇧3 the screen, ⌘⇧4 an area, ⌘⇧5 a window, ⌘⇧R recording.
-  DeepSnap says how to turn off macOS's own screenshot shortcuts and takes the keys as soon as you come back.
-- A capture shortcut works while a DeepSnap menu is open, and the menu is in the picture.
-- Click a secret or a face in the Text panel to see where it is: the rest of the picture dims.
-- The editor opens with the last tool you drew with, or one you choose in Settings › Capture › Editor.
+- Compressing and converting a recording is about three times faster: the frames go from the decoder to the
+  encoder on the GPU.
 
 ### Fixed
 
-- Compression progress counts each pass from 0 to 100 % — on a long recording it looked stuck at 5 %.
-- A handle such as @JohnSmith-cc7xw is no longer taken for a password.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.7.0/DeepSnap-0.7.0.dmg" type="application/octet-stream" length="8038143" sparkle:edSignature="zPOFR4pqy/t8dKbx8e3i9ViHwsPanOZoEa3Pz3t9An4u/eFfHrzgWAQwzkKBdV7nIeeo/abHq84qt9c/PoC7Cg=="/>
+- A second capture shortcut while an area is being chosen no longer puts out the menu bar icon too early.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.7.1/DeepSnap-0.7.1.dmg" type="application/octet-stream" length="8596626" sparkle:edSignature="0GwzoYpvUWRWcJB1CYo4ye0liT/7ODwoEN2OU6IjhhJPJ9P8lWA03XFhUr0Q9iwO+Rdh2cZ57HlevV59l2vbDw=="/>
     </item>
   </channel>
 </rss>
