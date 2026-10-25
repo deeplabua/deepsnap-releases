@@ -3,34 +3,32 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.8.0</title>
-      <pubDate>Sun, 25 Oct 2026 09:35:25 GMT</pubDate>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <title>0.8.1</title>
+      <pubDate>Sun, 25 Oct 2026 10:53:56 GMT</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description sparkle:format="plain-text"><![CDATA[### Added
 
-- DeepSnap speaks 11 languages: English, Українська, Русский, Deutsch, Español, Français, Italiano, 日本語, 한국어,
-  Português (Brasil) and 简体中文 — with the system, or chosen in Settings › General.
+- DeepSnap Help › Capturing shows the magnifier at work, in a GIF.
+- Buy Pro on the last step of onboarding, beside the free week.
+- Welcome to DeepSnap in the menu bar menu brings the onboarding back.
 
-- Onboarding shows what DeepSnap does: capture and markup, recording, secrets and faces, text from the screen,
-  history, guides and Markdown — with their shortcuts.
+### Changed
 
-- DeepSnap Help (Help › DeepSnap Help, ⌘?, or the menu bar menu): every feature with screenshots, your
-  shortcuts and the keys of the editor, thumbnails, pins and recording, GIFs of clicks, keys pressed and the
-  camera in a recording, and Free and Pro side by side with Buy — searchable, in all 11 languages, without the
-  internet.
-- About DeepSnap in the menu bar menu too: version, copyright and a link to DeepSnap's page.
-- When a full menu bar hides DeepSnap's icon (or the notch covers it), DeepSnap shows itself in the Dock until
-  the icon is back: the Dock icon opens its menu, and ⌘, and ⌘? work. A note says so the first time.
-
-- DeepSnap installs with Homebrew: `brew install --cask deeplabua/tap/deepsnap`.
+- The menu bar menu says just Help, About and Quit.
+- Onboarding comes back at the next launch if it was closed before the end — unless Don’t show again is checked.
 
 ### Fixed
 
-- Keys pressed in a recording shows shortcuts another app has taken (⌃⇧Space) and keys typed into DeepSnap.
-- The update window opens in the middle of the screen.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.0/DeepSnap-0.8.0.dmg" type="application/octet-stream" length="15003995" sparkle:edSignature="c8cIu8P9gszF3eU8f9qcQRDBHpBBlymeUTOeaUA+OjckDkaHJpXSZA8z+PT/Wi6EgeVgb3A1O1LhO3kmAzjxCA=="/>
+- Keys pressed asks for Accessibility when you turn it on — in Settings › Recording or on the recording card — not
+  once the recording has started; Settings says so until it is allowed.
+- Launch at Login that macOS holds for approval opens Login Items, and the menu shows a dash until it is approved.
+- Open System Settings goes straight to Screen & System Audio Recording on macOS 26, without restarting System
+  Settings first.
+- Turned Screen Recording on? Check Again sees it right away; if macOS still wants a restart, Restart DeepSnap is
+  there.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.1/DeepSnap-0.8.1.dmg" type="application/octet-stream" length="14911855" sparkle:edSignature="5XznTSudNpcU9NZ1tNyT8zl6MK/wGqdc+plZH2MQZuLqn0221/4dBsKb5QaAl+2zoL6mvW+Vw9iQSucmWNcXDw=="/>
     </item>
   </channel>
 </rss>
