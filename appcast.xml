@@ -3,20 +3,23 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.8.2</title>
-      <pubDate>Sun, 25 Oct 2026 11:37:55 GMT</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+      <title>0.8.3</title>
+      <pubDate>Sun, 25 Oct 2026 13:19:40 GMT</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[### Added
+      <description sparkle:format="plain-text"><![CDATA[### Changed
 
-- Settings › General › Show messages: turn off Copied, Saved and the like. Problems and messages that need you still
-  appear.
+- History shows what can be done with a recording as buttons — Trim, Save as GIF, Save as MP4, and Compress for each
+  platform — instead of a menu under one button.
 
-### Changed
+### Fixed
 
-- Messages slide in at the top right and slide back out, so it is clear where they come from.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.2/DeepSnap-0.8.2.dmg" type="application/octet-stream" length="14958313" sparkle:edSignature="Qp0kHXinN7h/rubspUiayaeff3wHjPr1cU7BxeUXsBHIYafByjjS6qJAO8USGoOFJ4pBlu52z4lTILC74ScCAg=="/>
+- The progress of a compression changes in place, instead of sliding in again at every step.
+- In History, Move to Trash, Copy and Show in Finder act on all the picked captures (⌘-click, ⇧-click), not only
+  the one clicked; Undo brings them all back. With several picked, the panel shows them together — how many, how
+  large, and the actions that act on all.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.3/DeepSnap-0.8.3.dmg" type="application/octet-stream" length="15876429" sparkle:edSignature="JjDwh+xC89HD2cR7FdVd2NtBMZw/Wz6cjrMBuSpVs0nSKxDzasw7wiLYyMzi4ckQB/oV4uxCshYPDha5O1RaCw=="/>
     </item>
   </channel>
 </rss>
