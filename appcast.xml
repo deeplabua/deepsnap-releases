@@ -3,32 +3,20 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.8.1</title>
-      <pubDate>Sun, 25 Oct 2026 10:53:56 GMT</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <title>0.8.2</title>
+      <pubDate>Sun, 25 Oct 2026 11:37:55 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description sparkle:format="plain-text"><![CDATA[### Added
 
-- DeepSnap Help › Capturing shows the magnifier at work, in a GIF.
-- Buy Pro on the last step of onboarding, beside the free week.
-- Welcome to DeepSnap in the menu bar menu brings the onboarding back.
+- Settings › General › Show messages: turn off Copied, Saved and the like. Problems and messages that need you still
+  appear.
 
 ### Changed
 
-- The menu bar menu says just Help, About and Quit.
-- Onboarding comes back at the next launch if it was closed before the end — unless Don’t show again is checked.
-
-### Fixed
-
-- Keys pressed asks for Accessibility when you turn it on — in Settings › Recording or on the recording card — not
-  once the recording has started; Settings says so until it is allowed.
-- Launch at Login that macOS holds for approval opens Login Items, and the menu shows a dash until it is approved.
-- Open System Settings goes straight to Screen & System Audio Recording on macOS 26, without restarting System
-  Settings first.
-- Turned Screen Recording on? Check Again sees it right away; if macOS still wants a restart, Restart DeepSnap is
-  there.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.1/DeepSnap-0.8.1.dmg" type="application/octet-stream" length="14911855" sparkle:edSignature="5XznTSudNpcU9NZ1tNyT8zl6MK/wGqdc+plZH2MQZuLqn0221/4dBsKb5QaAl+2zoL6mvW+Vw9iQSucmWNcXDw=="/>
+- Messages slide in at the top right and slide back out, so it is clear where they come from.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.2/DeepSnap-0.8.2.dmg" type="application/octet-stream" length="14958313" sparkle:edSignature="Qp0kHXinN7h/rubspUiayaeff3wHjPr1cU7BxeUXsBHIYafByjjS6qJAO8USGoOFJ4pBlu52z4lTILC74ScCAg=="/>
     </item>
   </channel>
 </rss>
