@@ -3,23 +3,16 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.8.5</title>
-      <pubDate>Tue, 27 Oct 2026 19:56:36 GMT</pubDate>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
+      <title>0.8.7</title>
+      <pubDate>Wed, 28 Oct 2026 18:54:21 GMT</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[### Changed
+      <description sparkle:format="plain-text"><![CDATA[### Fixed
 
-- The app menu reads About, Help, Hide and Quit, as the menu bar menu does.
-- Two fingers move the thumbnails' tray in a short push: toward a side is enough for that side's corner, and several strokes in a row add up.
-- History: drag a frame from between the cells to pick several captures, as in Finder; ⌘ or ⇧ adds to what is picked.
-
-### Fixed
-
-- DeepSnap always looks for updates on its own.
-- DeepSnap no longer quits now and then while you select an area.
-- History: several picked captures dragged to a folder all go there, not just the one under the pointer.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.5/DeepSnap-0.8.5.dmg" type="application/octet-stream" length="15859290" sparkle:edSignature="fHFLtYrCaiTYO9x4yZo5AftjRn6iib9riibaj1LSoifHv6geBdtr3rvdfcGEdWTxGb0+knV5Hk5rWzz+XE9yBQ=="/>
+- Choosing an area no longer stutters: the frozen screen under it is put up by the GPU, not redrawn on every pointer move.
+- DeepSnap starts at login only when Launch at Login is on.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.7/DeepSnap-0.8.7.dmg" type="application/octet-stream" length="15810154" sparkle:edSignature="hB6QtGNqTSjO1EcBxFymMHFX7PxgwvZO0RKFxF3jU2/+KKAuTpzHD+Bp5rhXhTmKwtW3IGkOKsIvWGfX7E6ZDw=="/>
     </item>
   </channel>
 </rss>
