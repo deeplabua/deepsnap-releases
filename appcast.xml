@@ -3,18 +3,15 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.8.8</title>
-      <pubDate>Sat, 31 Oct 2026 10:22:14 GMT</pubDate>
-      <sparkle:version>16</sparkle:version>
-      <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
+      <title>0.8.9</title>
+      <pubDate>Sat, 31 Oct 2026 11:43:16 GMT</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description sparkle:format="plain-text"><![CDATA[### Fixed
 
-- An area or the whole screen keeps the windows’ shadows, as macOS’s own screenshots do (macOS 15.2 and later).
-- Capture Text works again after macOS clears its caches, and is ready right after launch: the first capture no longer waits a minute.
-- Settings fit on a small screen: a tab taller than the screen scrolls.
-- Capture Text says so when it couldn’t read the text, instead of a beep.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.8/DeepSnap-0.8.8.dmg" type="application/octet-stream" length="15836603" sparkle:edSignature="fmK2IJgmM+ld/0ebYDqr1Xqn5O+uf0NuhDeYooxTsIhZTZf4kH9xlZXiu6/UC9b76KfNWXDOFY1ZgQ3l5rzuCQ=="/>
+- Capture Text keeps working after hours: text is read in a helper process of its own, started afresh if macOS breaks it.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.9/DeepSnap-0.8.9.dmg" type="application/octet-stream" length="16010311" sparkle:edSignature="O1zh8TMxidNwFywlhGbZTffCzuWIrW0w2QGEhGXBctro2Qh5vDU3EoTmcegQgedYVvuDfddp9LVqwphK0zRSCA=="/>
     </item>
   </channel>
 </rss>
