@@ -3,16 +3,18 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.8.7</title>
-      <pubDate>Wed, 28 Oct 2026 18:54:21 GMT</pubDate>
-      <sparkle:version>15</sparkle:version>
-      <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
+      <title>0.8.8</title>
+      <pubDate>Sat, 31 Oct 2026 10:22:14 GMT</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description sparkle:format="plain-text"><![CDATA[### Fixed
 
-- Choosing an area no longer stutters: the frozen screen under it is put up by the GPU, not redrawn on every pointer move.
-- DeepSnap starts at login only when Launch at Login is on.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.7/DeepSnap-0.8.7.dmg" type="application/octet-stream" length="15810154" sparkle:edSignature="hB6QtGNqTSjO1EcBxFymMHFX7PxgwvZO0RKFxF3jU2/+KKAuTpzHD+Bp5rhXhTmKwtW3IGkOKsIvWGfX7E6ZDw=="/>
+- An area or the whole screen keeps the windows’ shadows, as macOS’s own screenshots do (macOS 15.2 and later).
+- Capture Text works again after macOS clears its caches, and is ready right after launch: the first capture no longer waits a minute.
+- Settings fit on a small screen: a tab taller than the screen scrolls.
+- Capture Text says so when it couldn’t read the text, instead of a beep.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.8.8/DeepSnap-0.8.8.dmg" type="application/octet-stream" length="15836603" sparkle:edSignature="fmK2IJgmM+ld/0ebYDqr1Xqn5O+uf0NuhDeYooxTsIhZTZf4kH9xlZXiu6/UC9b76KfNWXDOFY1ZgQ3l5rzuCQ=="/>
     </item>
   </channel>
 </rss>
