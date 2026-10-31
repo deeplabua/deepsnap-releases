@@ -3,27 +3,16 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.9.0</title>
-      <pubDate>Sat, 31 Oct 2026 20:10:30 GMT</pubDate>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <title>0.9.1</title>
+      <pubDate>Sat, 31 Oct 2026 21:06:23 GMT</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[### Added
+      <description sparkle:format="plain-text"><![CDATA[### Changed
 
-- Capture Text shows that it is reading, with Cancel; Esc cancels too.
-- Capture Previous Text Area: read the same place again without selecting it — subtitles, slide after slide (⌃⌥⌘T).
-- Join lines into paragraphs: text that wraps on screen comes out one line per paragraph (Settings › Capture).
-- Custom words: names and terms that text recognition keeps as written (Settings › Capture).
-- A right click on the menu bar icon can start Capture Text (Settings › Capture).
-
-### Fixed
-
-- Scrolling captures no longer lose or repeat lines on pages that repeat themselves, like a changelog with the same heading in every section.
-- Scrolling fast no longer leaves half lines or skips part of the page in a scrolling capture.
-- The editor shows all of a long capture’s recognized text, the side panel scrolling, instead of cutting it off.
-- Text is recognized on long scrolling captures too, read in pieces.
-- Capture Text no longer waits without end while macOS prepares text recognition: after a while it says so and asks to try again.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.0/DeepSnap-0.9.0.dmg" type="application/octet-stream" length="15309045" sparkle:edSignature="6wG2h4Qsv0YAjggtCl/iR6mTFL89Wx1uXU9G1/0oXS1HgYl7AflhrFfpAzXPUKCRniytq6oQtu8LYnWy5xwaDQ=="/>
+- Clipboard managers such as Paste show DeepSnap as the app that copied, not the app in front.
+- Capture Text answers in the middle of the screen: Recognizing, then Text copied with its first words and ⌘Z, or No text found — a click on Text copied shows the text.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.1/DeepSnap-0.9.1.dmg" type="application/octet-stream" length="16145372" sparkle:edSignature="DE+idd561Ps9Qqjd9CdBveeO/Ou9mtACJmr5ehjimrJRm7udHBz+ab0OWa4fPAoUz4C75kTWhO9N92eZyqLOBQ=="/>
     </item>
   </channel>
 </rss>
