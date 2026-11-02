@@ -3,16 +3,21 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.9.1</title>
-      <pubDate>Sat, 31 Oct 2026 21:06:23 GMT</pubDate>
-      <sparkle:version>19</sparkle:version>
-      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <title>0.9.2</title>
+      <pubDate>Mon, 02 Nov 2026 15:27:20 GMT</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[### Changed
+      <description sparkle:format="plain-text"><![CDATA[### Fixed
 
-- Clipboard managers such as Paste show DeepSnap as the app that copied, not the app in front.
-- Capture Text answers in the middle of the screen: Recognizing, then Text copied with its first words and ⌘Z, or No text found — a click on Text copied shows the text.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.1/DeepSnap-0.9.1.dmg" type="application/octet-stream" length="16145372" sparkle:edSignature="DE+idd561Ps9Qqjd9CdBveeO/Ou9mtACJmr5ehjimrJRm7udHBz+ab0OWa4fPAoUz4C75kTWhO9N92eZyqLOBQ=="/>
+- Scrolling capture: the scroll bar that shows at the right edge while the page moves no longer comes into the picture in pieces. Each row's right edge is taken as most frames saw it; whatever stands still on the screen while the page goes by — the scroll bar, a «back to top» button — is left out.
+
+### Changed
+
+- The week of Pro in the download from the site is given by the DeepLab licence server, once per Mac, as in DeepVault. Starting it sends a hash of this Mac's hardware ID — never the ID itself, nor the Mac's name. Without a connection the week starts anyway.
+- Offers: now and then, a week of Pro more (a Christmas week, say) — in the menu, Settings › License and where a Pro feature is asked for. The list is signed with DeepSnap's update key and read once a day with nothing about your Mac.
+- Updates are looked up at deeplab.tools instead of GitHub. We count how many copies check for updates each day and on which version — never their addresses or anything about you.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.2/DeepSnap-0.9.2.dmg" type="application/octet-stream" length="16227508" sparkle:edSignature="6U0663XahaajFeEEnA97Ln0JvXIsPqYL5iuQTS1F0CT6Vgk/ZqrR7X2b1H3Jc4LJ0XYGziVjdIvAjRWhwuUFAw=="/>
     </item>
   </channel>
 </rss>
