@@ -3,21 +3,17 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.9.2</title>
-      <pubDate>Mon, 02 Nov 2026 15:27:20 GMT</pubDate>
-      <sparkle:version>20</sparkle:version>
-      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+      <title>0.9.3</title>
+      <pubDate>Tue, 03 Nov 2026 13:17:08 GMT</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description sparkle:format="plain-text"><![CDATA[### Fixed
 
-- Scrolling capture: the scroll bar that shows at the right edge while the page moves no longer comes into the picture in pieces. Each row's right edge is taken as most frames saw it; whatever stands still on the screen while the page goes by — the scroll bar, a «back to top» button — is left out.
-
-### Changed
-
-- The week of Pro in the download from the site is given by the DeepLab licence server, once per Mac, as in DeepVault. Starting it sends a hash of this Mac's hardware ID — never the ID itself, nor the Mac's name. Without a connection the week starts anyway.
-- Offers: now and then, a week of Pro more (a Christmas week, say) — in the menu, Settings › License and where a Pro feature is asked for. The list is signed with DeepSnap's update key and read once a day with nothing about your Mac.
-- Updates are looked up at deeplab.tools instead of GitHub. We count how many copies check for updates each day and on which version — never their addresses or anything about you.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.2/DeepSnap-0.9.2.dmg" type="application/octet-stream" length="16227508" sparkle:edSignature="6U0663XahaajFeEEnA97Ln0JvXIsPqYL5iuQTS1F0CT6Vgk/ZqrR7X2b1H3Jc4LJ0XYGziVjdIvAjRWhwuUFAw=="/>
+- Capture Text: when macOS can't read the text, it says so in the same place in the middle of the screen where «Recognizing text…» was, not in a toast in the corner.
+- Capture Text on macOS 27: text is read with the newer recognition of macOS 15 and later, which macOS 27's slowdown spares most of the time. When macOS still has to get its recognition ready — up to a minute — DeepSnap waits for it and says so, instead of giving up after 20 seconds; it gets it ready in the background after the Mac wakes, too.
+- Capturing an open menu or context menu: the selection no longer closes another app's menu as it appears, so the menu stays in an area, a timed or a window capture and in a recording. Esc and Space work over the selection as before.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.3/DeepSnap-0.9.3.dmg" type="application/octet-stream" length="16457483" sparkle:edSignature="bnImkoLKsaOUKjuX9xyXz7lnD80ahESLDceSahuMiKyUUQAl15pfIS0AcWoZGBSs8acgSklcv80G7WF+ZMafCw=="/>
     </item>
   </channel>
 </rss>
