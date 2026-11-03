@@ -3,17 +3,15 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.9.3</title>
-      <pubDate>Tue, 03 Nov 2026 13:17:08 GMT</pubDate>
-      <sparkle:version>21</sparkle:version>
-      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+      <title>0.9.4</title>
+      <pubDate>Tue, 03 Nov 2026 16:25:58 GMT</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[### Fixed
+      <description sparkle:format="plain-text"><![CDATA[### Added
 
-- Capture Text: when macOS can't read the text, it says so in the same place in the middle of the screen where «Recognizing text…» was, not in a toast in the corner.
-- Capture Text on macOS 27: text is read with the newer recognition of macOS 15 and later, which macOS 27's slowdown spares most of the time. When macOS still has to get its recognition ready — up to a minute — DeepSnap waits for it and says so, instead of giving up after 20 seconds; it gets it ready in the background after the Mac wakes, too.
-- Capturing an open menu or context menu: the selection no longer closes another app's menu as it appears, so the menu stays in an area, a timed or a window capture and in a recording. Esc and Space work over the selection as before.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.3/DeepSnap-0.9.3.dmg" type="application/octet-stream" length="16457483" sparkle:edSignature="bnImkoLKsaOUKjuX9xyXz7lnD80ahESLDceSahuMiKyUUQAl15pfIS0AcWoZGBSs8acgSklcv80G7WF+ZMafCw=="/>
+- Help menu: Send Feedback… (a new e-mail with the version and macOS), DeepSnap Support, Privacy Policy and Acknowledgements… (the libraries DeepSnap is built with and their licences); ⌘/ opens Keyboard Shortcuts. The app menu has Services, Hide Others and Show All, the Window menu Zoom and Bring All to Front.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.4/DeepSnap-0.9.4.dmg" type="application/octet-stream" length="16329080" sparkle:edSignature="gu3c6WX/r7l1iy+fQdHCB5+IATbyc0buuwzNfRPYCncaybw0mSa8GMSELnRnKSlkj5n8hcCUj+Qxm7R/DP1wCQ=="/>
     </item>
   </channel>
 </rss>
