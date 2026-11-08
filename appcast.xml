@@ -3,15 +3,20 @@
   <channel>
     <title>DeepSnap</title>
     <item>
-      <title>0.9.4</title>
-      <pubDate>Tue, 03 Nov 2026 16:25:58 GMT</pubDate>
-      <sparkle:version>22</sparkle:version>
-      <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+      <title>0.9.5</title>
+      <pubDate>Sun, 08 Nov 2026 19:04:09 GMT</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[### Added
+      <description sparkle:format="plain-text"><![CDATA[### Changed
 
-- Help menu: Send Feedback… (a new e-mail with the version and macOS), DeepSnap Support, Privacy Policy and Acknowledgements… (the libraries DeepSnap is built with and their licences); ⌘/ opens Keyboard Shortcuts. The app menu has Services, Hide Others and Show All, the Window menu Zoom and Bring All to Front.]]></description>
-      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.4/DeepSnap-0.9.4.dmg" type="application/octet-stream" length="16329080" sparkle:edSignature="gu3c6WX/r7l1iy+fQdHCB5+IATbyc0buuwzNfRPYCncaybw0mSa8GMSELnRnKSlkj5n8hcCUj+Qxm7R/DP1wCQ=="/>
+- A thumbnail open in the editor brings the editor forward on a click or a double click.
+
+### Fixed
+
+- Settings, an editor or History no longer stay inactive-looking after hovering a thumbnail, clicking one or closing the last one.
+- An editor opened from a thumbnail (↩, Edit) comes forward as the active window, not behind the app you were in.]]></description>
+      <enclosure url="https://github.com/deeplabua/deepsnap-releases/releases/download/v0.9.5/DeepSnap-0.9.5.dmg" type="application/octet-stream" length="16332994" sparkle:edSignature="LmpHGXnYrt+tmutXJ+NTbtmQzpO/QoaMebFXS/33x7qIKFbHro8hnXX/JXk61Iptfe/1vd4qS4cjW3yFODYUDA=="/>
     </item>
   </channel>
 </rss>
